@@ -28,5 +28,5 @@ app.get("/api/config", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`I just made a few bands on http://localhost:${port}`);
+  console.log(`I just made a few bands on http://localhost:${PORT}`);
 });
